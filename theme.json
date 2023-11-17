@@ -1,0 +1,253 @@
+{
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": true,
+			"defaultPalette": false,
+			"palette": [
+				{
+					"color": "#3448a3",
+					"name": "Mukto Medium Blue",
+					"slug": "custom-mukto-medium-blue"
+				},
+				{
+					"color": "#ccd6f6",
+					"name": "Mukto Light Blue",
+					"slug": "custom-mukto-light-blue"
+				},
+				{
+					"color": "#142237",
+					"name": "Mukto Dark Blue",
+					"slug": "custom-mukto-dark-blue"
+				},
+				{
+					"color": "#ffffff",
+					"name": "White",
+					"slug": "custom-white"
+				},
+				{
+					"color": "#08ec41",
+					"name": "Green",
+					"slug": "custom-green"
+				},
+				{
+					"color": "#536dfe",
+					"name": "Mukto Theme Border",
+					"slug": "custom-mukto-theme-border"
+				},
+				{
+					"color": "#0b192f",
+					"name": "Mukto Background",
+					"slug": "custom-mukto-background"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "1280px",
+			"wideSize": "1400px"
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/poppins_italic_700.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/poppins_normal_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/poppins_normal_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/poppins_normal_400.ttf"
+							]
+						},
+						{
+							"fontFamily": "Poppins",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/poppins_normal_300.ttf"
+							]
+						}
+					],
+					"fontFamily": "Poppins",
+					"slug": "poppins"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"bottom": {
+						"color": "#3448a3",
+						"style": "solid",
+						"width": "1px"
+					},
+					"color": null,
+					"left": {
+						"color": "#3448a3",
+						"style": "solid",
+						"width": "1px"
+					},
+					"radius": "35px",
+					"right": {
+						"color": "#3448a3",
+						"style": "solid",
+						"width": "1px"
+					},
+					"style": null,
+					"top": {
+						"color": "#3448a3",
+						"style": "solid",
+						"width": "1px"
+					},
+					"width": null
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "15px",
+						"left": "40px",
+						"right": "40px",
+						"top": "15px"
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--poppins)"
+				},
+				"variations": {
+					"outline": {
+						"border": {
+							"bottom": {
+								"color": "#3448a3",
+								"style": "solid",
+								"width": "1px"
+							},
+							"color": null,
+							"left": {
+								"color": "#3448a3",
+								"style": "solid",
+								"width": "1px"
+							},
+							"radius": "35px",
+							"right": {
+								"color": "#3448a3",
+								"style": "solid",
+								"width": "1px"
+							},
+							"style": null,
+							"top": {
+								"color": "#3448a3",
+								"style": "solid",
+								"width": "1px"
+							},
+							"width": null
+						},
+						"spacing": {
+							"padding": {
+								"bottom": "15px",
+								"left": "40px",
+								"right": "40px",
+								"top": "15px"
+							}
+						},
+						"typography": {
+							"fontFamily": "var(--wp--preset--font-family--poppins)"
+						}
+					}
+				}
+			},
+			"core/post-template": {
+				"spacing": {
+					"blockGap": "15px"
+				}
+			},
+			"core/post-terms": {
+				"color": {
+					"background": "var(--wp--preset--color--custom-mukto-medium-blue)"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "5px",
+						"left": "10px",
+						"right": "10px",
+						"top": "5px"
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--small)"
+				}
+			}
+		},
+		"color": {
+			"background": "#0a192f",
+			"text": "#ccd6f6"
+		},
+		"elements": {
+			"button": {
+				"color": {
+					"background": "#3448a3",
+					"text": "#fefefe"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--poppins)"
+				}
+			},
+			"caption": {
+				"color": {
+					"text": "#ccd6f6"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--poppins)"
+				}
+			},
+			"heading": {
+				"color": {
+					"text": "var(--wp--preset--color--white)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--poppins)",
+					"fontStyle": "normal",
+					"fontWeight": "500"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "#ccd6f6"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--poppins)",
+					"textDecoration": "none"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--poppins)"
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.4/theme.json"
+}

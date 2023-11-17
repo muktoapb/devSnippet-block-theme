@@ -1,0 +1,55 @@
+/*
+Theme Name: Code Mukto
+Theme URI: https://code.mukto.info
+Author: Mahidul Islam Mukto
+Author URI: https://mukto.info
+Description: Code Mukto is theme for developer share code as block.
+Requires at least: 6.1
+Tested up to: 6.4
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: codemukto
+Tags: blog, portfolio
+*/
+
+/* Post Grid 
+============ */
+.post_cat_label {
+    display: inline-block;
+}
+
+/* Category List 
+================= */
+ul.category_list.wp-block-categories {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+ul.category_list.wp-block-categories li {
+    width: calc(25% - 10px);
+    text-align: center;
+}
+
+ul.category_list.wp-block-categories li a {
+    display: block;
+    padding: 5px 10px;
+    background: #303d50;
+}
+
+ul.category_list.wp-block-categories li:hover a {
+    background: #3448a3;
+}
+
+/* footer fix  */
+body footer .is-layout-flex {
+    align-items: normal;
+}
+.cat_wrapper{
+    box-shadow: 5px 5px 40px #080f33;
+}
